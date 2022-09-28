@@ -1,0 +1,38 @@
+.released-Movie-Grid {
+    background-color: black;
+
+}
+
+.flex-container {
+    display: flex;
+    height: fit-content;
+}
+
+.flexbox-item {
+    margin: 16px;
+}
+
+.flexbox-item-1 {
+    width: 76%;
+    height: fit-content;
+}
+
+.flexbox-item-2 {
+    width: 24%;
+    height: fit-content;
+    flex-shrink: 0;
+}
+
+.Released_poster {
+    object-fit: contain;
+    width: 100%;
+    margin-right: 10px;
+    transition: transorm 450ms;
+}
+
+.upper_grid_poster {
+    object-fit: contain;
+    width: 100%;
+    margin-right: 10px;
+    transition: transorm 450ms;
+}
