@@ -21,7 +21,7 @@ console.log("movieData:-");
 console.table(MovieCardFilter.filterData);
 
 function NewReleasedGrid(props) {
-// const classes = useStyles();
+const classes = useStyles();
 const [filteredData, setFilteredData] = useState("");
 const childToParent = (childData) => {
     setFilteredData(childData);

@@ -13,6 +13,7 @@ function NewReleasedContent({ filteredData }) {
   let startTime = filteredData.movie_startTime;
   console.log("Start time: ",startTime);
   let endTime = filteredData.movie_endTime;
+  console.log("End time: ",endTime);
   let genres = filteredData.movie_genere;
 
   let UrlArtists = artists;
@@ -47,7 +48,7 @@ function NewReleasedContent({ filteredData }) {
       setNewMovie(data.movies);
     }
     fetchData();
-  }, [fetchUrl]); // Or [] if effect doesn't need props or state
+  }, [fetchUrl]); 
 
   let latestReleased = [];
   for (let movie of newMovie) {
